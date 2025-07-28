@@ -1,0 +1,119 @@
+
+
+  
+.movie-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 40px;
+
+    padding: 2rem;
+    justify-items: center;
+  }
+  
+ 
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .movie-card img {
+    width: 160px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+     }
+  
+  .movie-info p {
+    color: white;
+    font-family: 'Waltograph', cursive;
+    margin: 10px 0 0;
+    font-size: 1rem;
+    word-wrap: normal;
+    overflow-wrap: normal;
+    white-space: normal;
+    line-height: 1.4;
+  }
+  
+  .movie-info a {
+    color: #ff7bb1;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .movie-info a:hover {
+    text-decoration: underline;
+  }
+@font-face {
+    font-family: 'Waltograph';
+    src: url('waltographUI.ttf') format('truetype');
+ }
+header h1{
+    background: linear-gradient(to bottom ,#02051a,#163d8a, #4facfe);
+    font-family: 'Waltograph' , cursive;
+    font-weight: bold;
+    font-size: 39px;
+    text-align: center;
+    color: white;
+    height: 50px;
+    margin-top: 20px;
+    padding: 10px  10px;
+    border: 2px solid #ff7bb1 ;
+    border-radius: 100px;
+    box-shadow: 0 0 30px rgba(255, 215, 0 , 0.5);
+}
+.nav-links{
+    margin-top: rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+    }
+    .nav-links a {
+        color:#ff7bb1 ;
+        font-family: 'Waltograph' , cursive; ;
+        padding-top: 0.5rem;
+        font-size: 1.5rem;
+        margin: 0rem; }
+.section-title {
+    background: linear-gradient(to bottom ,#02051a,#163d8a, #4facfe) ;
+    padding: 1rem;
+    font-family: 'Waltograph' , cursive;
+    line-height: 1.3;
+    text-align: center;
+    gap:4rem ;
+    border-radius:60px;
+    margin: 2rem auto;
+font-size: 2.5rem;  
+    width: 95%;
+    max-width: 1200px;
+    border: 3px solid #ff7bb1 ;
+    box-shadow: 0 0 15px rgba(255,215,0,0.7);
+}
+.movie-card {
+  
+background:#041e50 ;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(255,215,0,0.49);
+    transition: transform 0.3s;
+    text-align: center;
+  width: 95%;
+margin: 10px;
+        border-radius: 25px;
+        padding: 0.9rem;
+        box-shadow: 0 4px 8px rgba(255,215,0,0.49);
+        transition: transform 0.3s;
+  }
+.section-title h2 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: white;
+}
+body{
+    background: linear-gradient( to bottom , #060c31 , #0a1852 , #1d59b9 , #00bfff);
+    color: white;
+    min-height: 300vh;
+}
+@media (max-width=500px){
+  .movie-card p {
+    font-size: 0.2rem;
+}
+}

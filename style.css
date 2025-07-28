@@ -1,0 +1,369 @@
+p{
+ padding: 0.9rem 0.9rem;
+ /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+ margin: 0;
+ }
+.container {
+    padding: 1.25rem;
+    text-align: center;
+    max-width: 1200px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+}
+header h1{
+    background: linear-gradient(to bottom , #02051a ,#163d8a, #4facfe);
+    font-family: 'Waltograph' , cursive;
+    font-weight: bold;
+    font-size: clamp(1.8rem,5vw,2.5rem);
+    text-align: center;
+    padding: 0.55rem  ;
+    line-height: 1.3;
+    border: 2px solid #ff7bb1;
+    border-radius: 6rem;
+    box-sizing: border-box;
+    margin: 1rem auto;
+    width: 100%;
+    box-shadow: 0 0 30px rgba(255, 215, 0 , 0.5);
+}
+.content-box{
+    display: flex;
+flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0;
+    width: 100%;
+    margin: 2rem auto;
+}
+.image-caption{
+    text-align: center;
+    margin-top: 0.5rem;
+    line-height: 1.3;
+    font-family:  'Waltograph' , cursive;
+    color: white;
+    font-size: 1.45rem;
+}
+.content-box img{
+    width: 98%;
+    max-width: 670px;
+    margin: auto;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover; 
+    padding: 0;
+}
+.nav-links{
+margin-top: rem;
+display: flex;
+justify-content: center;
+gap: 0.8rem;
+}
+.nav-links a {
+    color:#ff7bb1 ;
+    font-family: 'Waltograph' , cursive; ;
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
+    margin: 0rem; 
+}
+h2{
+    line-height: 1.2;
+    padding: 00.5rem;
+    font-size: 1.5rem;
+}
+.text-content{
+ width: 95%;
+ display: flex;
+justify-content: center;
+align-items: center;
+ margin: 0 auto;   
+}
+.main-paragraph{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif white;
+    font-size: 1.2rem;
+    margin: 0;
+    word-spacing: 0.11rem;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    width: 97%;
+    line-height: 1.6;
+    padding: 1.2rem;
+    text-align: justify;
+}
+.era-box{
+    background: linear-gradient(135deg, #060c31 0%, #2A5298 50%,#ff7bb1 90%) ;
+    padding: 0.7rem;
+    color: #FFF;
+    border-radius: 30px;
+    box-shadow: 0 4PX 8PX rgba(255,215,0,0.7);
+    text-align: left;
+    max-width:1200px;
+    height: auto;
+    width: 100%;
+    max-width: 900px;
+    margin: -1rem ;
+}
+@media (max-width:350px){
+    .content-box {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    } 
+    .text-content{
+        width: 99vw;
+    }
+    .content-box img{
+        width: 98%;
+        max-width: 700px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .era-box{
+        max-height: none;
+        margin: 0rem auto;
+height: auto;
+        width: 100%;
+    }
+    header h1 {
+        width: 95vw;
+        font-size: 1.5rem;
+        padding: -5px;
+    }
+    }
+.content-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0%;
+    gap: 0.5rem;
+    width: 100%;
+    max-width: 1200px;
+    flex-direction: row;
+margin: 3rem auto;}
+.image-left img{
+    width: 100%;
+    max-width: 99vw;
+    height: auto;
+    border-radius: 20px;
+    margin-right: 5rem;
+    object-fit: cover;    
+}
+.text-content-one {
+    border-radius: 30px;
+    max-width: 99vw;
+    width: 100%;
+    margin: auto;
+    text-align: center; 
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+.TWO-paragraph{
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow-wrap: break-word;
+    width: 100%;
+    padding: 0.5rem; 
+    box-sizing: border-box;
+    text-align: justify; 
+    word-spacing: 0.15rem;
+    margin: o; 
+}
+.two-box{
+    background: linear-gradient(135deg, #060c31 0%, #2A5298 60%,#ff7bb1 93%);
+    padding: 1rem;
+    box-shadow: 0 4PX 8PX rgba(255,215,0,0.7);
+    border-radius: 30px;
+    text-align: justify;
+    width:  100%;
+    margin: 0 ; 
+    max-width: 1000px;  
+}
+.image{
+    font-family:  'Waltograph' , cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 1.2;
+}
+h3{
+    font-family:  'Waltograph' , cursive;
+    line-height: 1.2;
+    text-align: left;
+    padding: 5px ;
+    font-size: 2.1rem;
+    color: white;
+}
+@media (max-width=800px) {
+    .content-container{
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+    }
+    .image-left img {
+        width: 100%;
+    }
+    .text-section{
+        width: 95%;
+    }
+    .two-box{
+        width: 95%;
+        padding: 0rem;
+    }
+    h3{
+        font-size: 1.5rem;
+        text-align: center;
+        line-height: 1.3;
+    }
+    .TWO-paragraph{
+        font-size: 1.2rem;
+        text-align: justify;
+        padding: 0.5rem;
+    }
+}
+@media (min-width: 1000px) {
+    .content-container {
+      flex-direction: row-reverse;
+      justify-content: center;
+      gap: 1rem;
+    }
+  
+    .image-left img {
+      width: 300px;
+      height: auto;
+    }
+  
+    .text-section-box {
+      max-width: 400px;
+    }
+  
+    .two-box {
+      padding: 1rem 1.5rem;
+      width: 600px;
+    }
+  
+    h3 {
+      font-size: 2rem;
+    }
+  }
+@font-face {
+font-family: 'Waltograph';
+src: url('waltographUI.ttf') format('truetype');
+}
+h2{
+    font-family: 'Waltograph' , cursive;
+    font-size: 30px;
+    margin: 0px;
+}
+.content-container-two{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0;
+    width: 100%;
+    margin: 0rem auto;    
+}
+.image-caption-two{
+    text-align: center;
+    margin-top: -0.5rem;
+    line-height: 1.3;
+    font-family:  'Waltograph' , cursive;
+    color: white;
+    font-size: 1.55rem;   
+}
+.image-right{
+    width: 99vw;
+    margin-right: 0;
+    height:auto;
+}
+.image-right img {
+    height:auto;
+    width: 100%;
+    max-width: 670px;
+    border-radius: 20px;
+    object-fit: cover;
+    gap: 0;
+}
+.text-content-two {
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    text-align: justify;    
+}
+.three-paragraph{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: white;
+    font-size: 1.2rem;
+    margin: 0;
+    word-spacing: 0.11rem;
+    line-height: 1.4;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    width:100%;
+    padding: 1rem;
+    text-align: justify;    
+}
+.three-box{
+    background: linear-gradient(135deg, #060c31 0%, #2A5298 50%,#ff7bb1 90%) ;
+    padding: 0.5rem;
+    color: #FFF;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 30px;
+    box-shadow: 0 4PX 8PX rgba(255,215,0,0.7);
+    text-align: left;
+    max-width:  1200px;
+    width: 100%;
+    margin: -0rem ;
+    height: auto;  
+}
+h4{
+    font-family:  'Waltograph' , cursive;
+    text-align: left;
+    padding: 5px;
+    line-height: 1.2;
+    font-size: 35px;
+    color: white;  
+}
+@media (max-width=350px){
+    .content-container-two {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    
+    }
+    .image-right img {
+        width: 98%;
+        max-width: 700px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .three-box{
+        max-width: none;
+        margin: 0 auto;
+        height: auto;
+        width: 100%;
+    }
+}
+body{
+    background: linear-gradient( to bottom , #060c31 , #0a1852 , #1d59b9 , #00bfff);
+    color: white;
+    max-width: 100%;
+    height: auto;
+    width: 150vw;
+    overflow-x: hidden;
+    margin: 0;
+}
